@@ -45,7 +45,7 @@ app.post('/submit', async (req, res) => {
   const url = 'https://api.github.com/repos/siamapi/user-history/contents/users/history.json';
   const headers = {
     'Accept': 'application/vnd.github.v3+json',
-    'Authorization': 'Bearer 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',
+    'Authorization': 'Bearer ',
     'User-Agent': 'MyBot/1.0'
   };
   const sha = await getSha(headers, url);
